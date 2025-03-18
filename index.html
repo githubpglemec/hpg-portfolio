@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Prasad Gyawali | Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body class="dark-theme">
+    <nav>
+        <button class="hamburger" aria-label="Toggle menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <ul class="nav-list">
+            <li><a href="#home" class="active nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#works" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contacts</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <button id="dark-theme-btn" class="active">DARK THEME</button>
+            <button id="light-theme-btn">LIGHT THEME</button>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="name">            
+            <h1>I AM HARI PRASAD <br> GYAWALI.</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="introduction">
+            <div class="intro-text">
+                <p>I HELP COMPANIES, BRANDS AND FREELANCE SERVICES
+                    DEVELOP ANY DIGITAL PRODUCTS AND ACHIEVE THEIR GOALS. I AM AN ASSOCIATED DESIGNER OF PGDESIGNS.
+                    I ALSO GO BY POOJAN GYAWALI OR (PG). <br><br>
+
+                    AS A FINAL-YEAR CSIT STUDENT, I HAVE A STRONG PASSION FOR DESIGN, AI/ML,
+                    BRANDING, ART, AND COMMUNICATION, ESPECIALLY IN DIVERSE AREAS OF MEDIA AND VISUALS.
+                    I AM DRAWN TO VISUAL ART AND DESIGN, HELPING YOUR BRAND WITH WEB DEVELOPMENT 
+                    AND CREATIVE SERVICES ACROSS VARIOUS SECTORS.</p>
+            </div>
+            <div class="title">
+                <h2>DESIGNER<br>& DEVELOPER</h2>
+            </div>
+        </section>
+
+        <section class="decorative-element">
+            <div class="starburst"></div>
+        </section>
+        
+        <section id="works" class="works">
+            <div class="works-header">
+                <div class="works-title">
+                    <h2>SOME <br> WORKS</h2>
+                    <h2 class="works-title-right">OF MY</h2>
+                </div>
+                <div class="works-subtitle">
+                    <p>SOME OF MY <br>WORK AS A DESIGNER<br>AND DEVELOPER</p>
+                </div>
+            </div>
+        
+            <div class="works-grid">
+                <a href="https://mehfilwavespgd.netlify.app/" class="work-link">
+                    <div class="work-item">
+                        <div class="work-number">01</div>
+                        <div class="work-name">MEHFILWAVES</div>
+                        <div class="work-type">Web Development</div>
+                        <div class="work-image">
+                            <img src="./assets/Mehfilwaves/Mockup.jpeg" alt="Safe Haven Project" loading="lazy">
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://www.rppsathi.com.np/" class="work-link">
+                    <div class="work-item">
+                        <div class="work-number">02</div>
+                        <div class="work-name">RPPS DESIGN WEBSITE</div>
+                        <div class="work-type">UI Design</div>
+                        <div class="work-image">
+                            <img src="./assets/rpps.JPG" alt="MilliQ" loading="lazy">
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/204218089/Skin-Care-Website-UiUx-(-Website-Redesign)" class="work-link">
+                    <div class="work-item">
+                        <div class="work-number">03</div>
+                        <div class="work-name">CONTERDIMA REDESIGN</div>
+                        <div class="work-type">UI/UX Design</div>
+                        <div class="work-image">
+                            <img src="./assets/Conterdima/post1.png" alt="Roman Stets Project" loading="lazy">
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/githubpglemec/DiaSense" class="work-link">
+                    <div class="work-item">
+                        <div class="work-number">04</div>
+                        <div class="work-name">DiaSense</div>
+                        <div class="work-type">Ai-ML Model</div>
+                        <div class="work-image">
+                            <img src="./assets/DiaSense.jpg" alt="DiaSense Early Stage Diabetes Prediction System" loading="lazy">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="skills-header">
+                <h2 class="skills-title">— MY SKILLS —</h2>
+                <p class="skills-subtitle">THERE ARE JUST MY MOST<br>SIGNIFICANT SKILLS</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- First row -->
+                <div class="skill-box" data-skill="figma">
+                    <h3>FIGMA</h3>
+                    <p>HERE I CREATE DESIGNS, PROTOTYPES, MOOD BOARDS</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="photoshop">
+                    <h3>PHOTOSHOP</h3>
+                    <p>THIS IS WHERE I DO PHOTO EDITING AND CREATE VISUAL IDEAS</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="photoshop">
+                    <h3>ILLUSTRATOR</h3>
+                    <p> I USE ILLUSTRATOR TO MAKE LOGOS AND BRANDING PROJECT</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="htmlcss">
+                    <h3>HTML/CSS</h3>
+                    <p>I USE THESE TECHNOLOGIES TO BRING MY DESIGN TO BROWSERS</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="javascript">
+                    <h3>JAVASCRIPT</h3>
+                    <p>WITH THIS TECHNOLOGY I CREATE VISUAL EFFECTS AND INTERACTION</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <!-- Second row -->
+
+                <div class="skill-box" data-skill="reactjs">
+                    <h3>REACT.JS</h3>
+                    <p>I USE IT TO CREATE APPLICATIONS THAT HAVE A LOT OF REACTIVITY</p>
+                    <div class="skill-separator"></div>
+                </div>
+                <!-- Third row -->
+                <div class="skill-box" data-skill="webpack">
+                    <h3>WEBPACK</h3>
+                    <p>I USE IT FOR FLEXIBLE SETUP OF THE WORKING ENVIRONMENT</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="nodejs">
+                    <h3>NODE.JS</h3>
+                    <p>I USE IT FOR WRITING SERVER APPLICATIONS AND PROTOTYPING</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="express">
+                    <h3>EXPRESS</h3>
+                    <p>FRAMEWORK FOR WRITING A BACKEND ON NODE.JS</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="php">
+                    <h3>PHP</h3>
+                    <p>I USE IT IN DEVELOPMENT FOR WRITING SERVER-SIDE CODE</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="wordpress">
+                    <h3>WORDPRESS</h3>
+                    <p>CONTENT MANAGEMENT SYSTEM. I USE IT TO MANAGE CONTENT</p>
+                    <div class="skill-separator"></div>
+                </div>
+
+                <div class="skill-box" data-skill="wordpress">
+                    <h3>PYTHON</h3>
+                    <p>FOR THE AI - MACHINE LEARNING PROJECT USING PYTHON AS MAJOR LANG</p>
+                    <div class="skill-separator"></div>
+                </div>
+                
+                <div class="skill-box" data-skill="c-cpp">
+                    <h3>C/C++</h3>
+                    <p>FOR SYSTEMS PROGRAMMING & HIGH-PERFORMANCE APPLICATIONS</p>
+                    <div class="skill-separator"></div>
+                </div>
+                
+                <div class="skill-box" data-skill="mongodb">
+                    <h3>MONGODB</h3>
+                    <p>FOR SCALABLE & FLEXIBLE NO-SQL DATABASE MANAGEMENT</p>
+                    <div class="skill-separator"></div>
+                </div>
+                
+            </div>
+        </section>
+            <div class="work-row">
+                <div class="work-col">
+                    <h3>PLATFORM</h3>
+                    <p>BEHANCE</p>
+                </div>
+                <div class="work-col">
+                    <h3>PROJECT</h3>
+                    <p>PGDESIGNS LOGO REBRANDING</p>
+                    <a href="https://www.behance.net/gallery/218921099/PGDESIGNS-LOGO-REVAMP" target="_blank" class="arrow-link">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- HimalTrek Website UI/UX -->
+            <div class="work-row">
+                <div class="work-col">
+                    <h3>PLATFORM</h3>
+                    <p>BEHANCE</p>
+                </div>
+                <div class="work-col">
+                    <h3>PROJECT</h3>
+                    <p>HimalTrek Website UI/UX</p>
+                    <a href="https://www.behance.net/gallery/215062103/HimalTrek-website-UIUX-Single-Page-design-" target="_blank" class="arrow-link">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- PGDESIGNS Design Agency Instagram -->
+            <div class="work-row">
+                <div class="work-col">
+                    <h3>PLATFORM</h3>
+                    <p>INSTAGRAM</p>
+                </div>
+                <div class="work-col">
+                    <h3>PROJECT</h3>
+                    <p>PGDESIGNS Design Agency</p>
+                    <a href="https://www.instagram.com/pgdesigns.np/" target="_blank" class="arrow-link">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Random Password Generator - GitHub -->
+            <div class="work-row">
+                <div class="work-col">
+                    <h3>PLATFORM</h3>
+                    <p>GITHUB</p>
+                </div>
+                <div class="work-col">
+                    <h3>PROJECT</h3>
+                    <p>Random Password Generator (Python)</p>
+                    <a href="https://github.com/githubpglemec/Random-Password-Generator-with-python" target="_blank" class="arrow-link">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Cloud Management Blog - Medium -->
+            <div class="work-row">
+                <div class="work-col">
+                    <h3>PLATFORM</h3>
+                    <p>MEDIUM</p>
+                </div>
+                <div class="work-col">
+                    <h3>PROJECT</h3>
+                    <p>Exploring Optimal Strategies in Cloud Management</p>
+                    <a href="https://medium.com/@pgsir/can-clouds-be-perfect-exploring-optimal-strategies-in-cloud-management-22acf9d39567" target="_blank" class="arrow-link">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+    </main>
+
+    <!-- Contact/Footer Section -->
+    <footer id="contact" class="contact-section">
+        <div class="get-in-touch">
+            <h2><a href="mailto:hari.gyawali2058@gmail.com" class="email-link">GET IN TOUCH</a></h2>
+            <div class="business-cards">
+                <div class="card-white" style="background-image: url('./assets/PHOTOPG.jpeg'); background-size: cover; background-position: center;"></div>
+            </div>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-col">
+                <p>PLEASE CONTACT<br>ME IN ANY WAY<br>YOU WANT TO</p>
+            </div>
+            
+            <div class="footer-col social">
+                <h3>SOCIAL</h3>
+                <div class="social-links">
+                    <a href="https://github.com/githubpglemec" class="social-link">GIT</a>
+                    <a href="https://www.instagram.com/_poozan_/" class="social-link">IN</a>
+                    <a href="https://www.behance.net/biralohaina" class="social-link">BE</a>
+                    <a href="https://dribbble.com/biralo69_" class="social-link">DRB</a>
+                    <a href="https://www.linkedin.com/in/hari-gyawali-326200210/" class="social-link">LIN</a>
+                </div>
+            </div>
+            
+            <div class="footer-col contacts">
+                <h3>CONTACTS</h3>
+                <ul>
+                    <li><span>01</span> <a href="mailto:biralohaina@gmail.com" class="email-link">[email&#160;protected]</a></li>
+                    <li><span>02</span> +977 9840755930</li>
+                </ul>
+            </div>
+            
+            <div class="footer-col pages">
+                <h3>OTHER PAGES</h3>
+                <ul>
+                    <li><span></span> HOME</li>
+                    <li><span></span> ABOUT</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Your existing scripts -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/animation.js"></script>
+    <script>
+        // Smooth scrolling for nav links
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+                
+                // Update active class
+                document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

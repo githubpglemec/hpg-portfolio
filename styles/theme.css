@@ -1,0 +1,212 @@
+/* Theme styles */
+.light-theme {
+    background-color: #f5f5f3;
+    color: #121212; /* Slightly softer black for readability */
+    background-image: linear-gradient(135deg, #f5f5f3 0%, #e8e8e6 100%); /* Subtle gradient */
+}
+
+.light-theme a {
+    color: #121212;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+.light-theme a:hover {
+    color: #4b2b24; /* Warm accent on hover */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle lift effect */
+}
+
+.light-theme .starburst {
+    filter: invert(19%) sepia(15%) saturate(682%) hue-rotate(328deg) brightness(94%) contrast(87%);
+    opacity: 0.6; /* Slightly less prominent in light mode */
+}
+
+.light-theme nav {
+    background: rgba(245, 245, 243, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+.light-theme .hamburger-line {
+    background: #121212; /* Match text color */
+}
+
+.light-theme .skill-box {
+    background-color: #1e1d1d; /* Light gray-brown for contrast */
+    color: #ffffff;
+}
+
+.light-theme .skill-box:hover {
+    background-color: #868686;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced hover effect */
+}
+
+.light-theme .skill-separator {
+    background-color: rgba(18, 18, 18, 0.3); /* Adjusted for light theme */
+}
+
+.light-theme .works-grid::-webkit-scrollbar-thumb {
+    background: #000000; /* Consistent accent color */
+}
+
+.light-theme .works-grid::-webkit-scrollbar-track {
+    background: #e8e8e6;
+}
+
+.light-theme .card-white {
+    background-color: #ffffff; /* Brighter white for cards */
+    border-color: rgba(58, 36, 30, 0.4);
+}
+
+.light-theme .card-black {
+    background-color: #2a2a2a; /* Softer dark for contrast */
+    border-color: rgba(245, 245, 243, 0.4);
+}
+
+.light-theme .card-white-alt {
+    background-color: #f0f0ee;
+    border-color: rgba(58, 36, 30, 0.4);
+}
+
+.light-theme .social-link:hover {
+    background-color: #000000;
+    color: #f5f5f3; /* White text on hover */
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: #f5f5f3;
+    background-image: linear-gradient(135deg, #121212 0%, #1e1e1e 100%); /* Dark gradient */
+}
+
+.dark-theme a {
+    color: #f5f5f3;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.dark-theme a:hover {
+    color: #d4a5a5; /* Soft warm tone for hover */
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Subtle glow */
+}
+
+.dark-theme .starburst {
+    filter: invert(95%) sepia(6%) saturate(159%) hue-rotate(23deg) brightness(105%) contrast(96%);
+    opacity: 0.8; /* More prominent in dark mode */
+}
+
+.dark-theme nav {
+    background: rgba(18, 18, 18, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+.dark-theme .hamburger-line {
+    background: #000000; /* Match text color */
+}
+
+.dark-theme .skill-box {
+    background-color: #272727; /* Original warm brown */
+    color: #f5f5f3;
+}
+
+.dark-theme .skill-box:hover {
+    background-color: #000000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow in dark mode */
+}
+
+.dark-theme .skill-separator {
+    background-color: rgba(245, 245, 243, 0.3); /* Adjusted for dark theme */
+}
+
+.dark-theme .works-grid::-webkit-scrollbar-thumb {
+    background: #d4a5a5; /* Lighter accent for dark mode */
+}
+
+.dark-theme .works-grid::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.dark-theme .card-white {
+    background-color: #2a2a2a; /* Darker for contrast */
+    border-color: rgba(245, 245, 243, 0.4);
+}
+
+.dark-theme .card-black {
+    background-color: #0a0a0a; /* Deeper black */
+    border-color: rgba(245, 245, 243, 0.4);
+}
+
+.dark-theme .card-white-alt {
+    background-color: #1e1e1e;
+    border-color: rgba(245, 245, 243, 0.4);
+}
+
+.dark-theme .social-link:hover {
+    background-color: #d4a5a5;
+    color: #121212; /* Dark text on hover */
+}
+
+/* Transition effects */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease; /* Smooth theme switch */
+}
+
+a {
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Consistent link transitions */
+}
+
+nav {
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Nav theme switch */
+}
+
+.skill-box {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Enhanced skill box transitions */
+}
+
+.works-grid::-webkit-scrollbar-thumb,
+.works-grid::-webkit-scrollbar-track {
+    transition: background 0.3s ease; /* Smooth scrollbar theme change */
+}
+
+.card-white,
+.card-black,
+.card-white-alt {
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease; /* Card transitions */
+}
+
+.social-link {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Social link transitions */
+}
+
+/* Additional theme enhancements */
+.light-theme .work-link:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hover shadow for works */
+}
+
+.dark-theme .work-link:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Stronger shadow in dark mode */
+}
+
+.light-theme .nav-list.active {
+    background: rgba(245, 245, 243, 0.95); /* Slightly more opaque for mobile menu */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme .nav-list.active {
+    background: rgba(18, 18, 18, 0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.light-theme .about-item p {
+    color: #333333; /* Softer text for readability */
+}
+
+.dark-theme .about-item p {
+    color: #d9d9d9; /* Slightly muted white for contrast */
+}
+
+/* Theme Styles */
+.light-theme .work-list {
+    background-color: #e8e8e6;
+}
+
+.dark-theme .work-list {
+    background-color: #1e1e1e;
+}
